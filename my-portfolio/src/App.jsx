@@ -109,29 +109,55 @@ const DATA = {
 
   // ── EXPERIENCE ──────────────────────────────────────────
   experience: [
-    { role: "AFL Data Analyst", company: "Statsperform", location: "Limerick, Ireland", period: "Mar 2026 – Present",
-      bullets: [
-        "Real-time QA of player tracking metrics and event data feeds for downstream BI analytics products",
-        "Rigorous data quality assurance against defined business rules; identify and communicate discrepancies",
-        "Maintain initiative trackers and dashboard statuses across a team of analysts",
-      ]},
-    { role: "Agentic AI Intern", company: "Innomatics Research Labs", location: "Remote", period: "Feb – Apr 2026",
-      bullets: [
-        "Designed and validated structured JSON data models for multi-step LLM agent workflows",
-        "Built Python/FastAPI data transformation microservices with cleaning, normalisation, schema enforcement",
-        "Analysed LLM output patterns to detect quality issues and performance bottlenecks",
-      ]},
-    { role: "Project Lead — Big Data & Digital Futures Lab", company: "University of Limerick", location: "Ireland", period: "2025 – Present",
-      bullets: [
-        "Lead cross-disciplinary analytics projects across Business Analytics, Finance, and AI",
-        "Coordinate operations and structured reporting across student and faculty teams",
-      ]},
-    { role: "Junior Data Analyst / Placement Coordinator", company: "Indira University", location: "Pune, India", period: "May 2024 – Jul 2025",
-      bullets: [
-        "Gathered, cleaned, and reported placement data for 100+ students and 15+ corporate partners",
-        "Produced performance trend reports informing faculty recruitment strategy",
-      ]},
-  ],
+  {
+    role: "AFL Data Analyst",
+    company: "Statsperform",
+    location: "Limerick, Ireland",
+    period: "Mar 2026 – Present",
+    bullets: [
+      "Validate player tracking metrics, event data, and statistical outputs against defined business rules to ensure accuracy for downstream BI and analytics products",
+      "Identify and communicate data discrepancies in real time, applying rigorous QA processes to maintain reliability of structured sports data feeds",
+      "Support operational processes enabling accurate and consistent data output across cross-functional analyst and engineering teams",
+      "Maintain initiative trackers and dashboard statuses to provide stakeholder visibility into live data quality performance"
+    ]
+  },
+  {
+    role: "Agentic AI Intern",
+    company: "Innomatics Research Labs",
+    location: "Remote",
+    period: "Feb – Apr 2026",
+    bullets: [
+      "Designed and validated structured JSON data models for multi-step LLM agent workflows, enforcing schema consistency and detecting output anomalies",
+      "Built Python and FastAPI data transformation microservices applying cleaning, normalization, validation, and business rule enforcement",
+      "Analyzed LLM output patterns to identify quality issues, performance bottlenecks, and workflow failure modes",
+      "Deployed and tested AI services on AWS infrastructure including S3 and EC2 environments"
+    ]
+  },
+  {
+    role: "Project Lead — Big Data, Digital Marketing & Digital Futures Lab",
+    company: "University of Limerick",
+    location: "Ireland",
+    period: "2025 – Present",
+    bullets: [
+      "Lead cross-disciplinary analytics initiatives across Business Analytics, Finance, AI, and Digital Transformation projects",
+      "Coordinate operations across cross-functional teams working on data-driven research and analytics initiatives",
+      "Apply advanced Excel modelling, stakeholder management, and structured reporting to support project delivery",
+      "Facilitate collaboration between students, faculty members, and project stakeholders"
+    ]
+  },
+  {
+    role: "Junior Data Analyst / Placement Data & Reporting Analyst",
+    company: "Indira University",
+    location: "Pune, India",
+    period: "Aug 2024 – Jul 2025",
+    bullets: [
+      "Managed end-to-end placement data reporting for 100+ students and 15+ corporate recruiting partners",
+      "Gathered, cleaned, tracked, and reported placement data to produce performance trend reports informing recruitment strategy",
+      "Coordinated placement calendars, interview scheduling, and recruiter engagement while managing data for 100+ concurrent records",
+      "Built and maintained structured dashboards and reporting templates using Microsoft Excel"
+    ]
+  }
+],
 
   // ── EDUCATION ───────────────────────────────────────────
   education: [
