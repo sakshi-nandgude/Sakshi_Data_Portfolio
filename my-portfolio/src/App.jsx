@@ -12,10 +12,10 @@ const DATA = {
   name: "Sakshi Nandgude",
   roles: ["Data Analyst", "Analytics Engineer", "ML Practitioner", "Software Engineer"],
   tagline: "CS & Software Engineering background. I design data systems, build ML pipelines, and engineer analytics products — from distributed PySpark jobs to real-time QA feeds.",
-  location: "Limerick, Ireland",
+  location: "Ireland",
   email: "sakshinandgude6@gmail.com",
   phone: "+353 085 808 3112",
-  availability: "Open to roles · Available Sep 2026",
+  availability: "Open to roles",
 
   // ── PLATFORM USERNAMES — used for live embed cards ──────
   // Replace with your real usernames on each platform
@@ -814,7 +814,7 @@ function Contact() {
       <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"2rem", alignItems:"start" }}>
         <div>
           <p style={{ color: C.muted, lineHeight:1.9, marginBottom:"1.2rem", fontSize:"0.9rem" }}>
-            I'm actively seeking graduate roles in data analytics, data engineering, and data science — available from September 2026, open to roles across Ireland, UK, and Europe.
+            I'm actively seeking roles in data analytics, data engineering, and data science — open to roles across Ireland.
           </p>
           <div style={{ fontFamily:"monospace", fontSize:12, color: C.muted,
             background: C.card, border:`1px solid ${C.border}`,
@@ -823,11 +823,11 @@ function Contact() {
             <span style={{ color: C.teal }}>sakshi </span>
             <span style={{ color: C.text }}>= {"{"}</span><br/>
             <span style={{ paddingLeft:16, color: C.muted }}>location: </span>
-            <span style={{ color:"#4ade80" }}>"{DATA.location}"</span>,<br/>
+            <span style={{ color:"#4ade80" }}>"Ireland"</span>,<br/>
             <span style={{ paddingLeft:16, color: C.muted }}>status: </span>
             <span style={{ color:"#4ade80" }}>"open to roles"</span>,<br/>
             <span style={{ paddingLeft:16, color: C.muted }}>available: </span>
-            <span style={{ color:"#4ade80" }}>"Sep 2026"</span>,<br/>
+            <span style={{ color:"#4ade80" }}>"Immediate"</span>,<br/>
             <span style={{ paddingLeft:16, color: C.muted }}>auth: </span>
             <span style={{ color:"#4ade80" }}>"work authorised"</span><br/>
             <span style={{ color: C.text }}>{"}"}</span>
